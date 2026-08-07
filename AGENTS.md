@@ -1,33 +1,23 @@
-# AGENTS.md
-
-## Golf AI HQ — Codex Workspace Instructions
-
-Version: v1.0 RC1  
-Status: Approved  
-Phase: P1 — Workspace Files
-
----
+# AGENTS
 
 ## Purpose
 
-ไฟล์นี้กำหนดกฎการทำงานสำหรับ Codex, Engineering Agent และ AI Agent อื่น ๆ ที่เข้ามาทำงานใน Repository นี้
+ไฟล์นี้กำหนดกฎการทำงานสำหรับ Codex, Engineering Agent และ AI Agent
+ที่เข้ามาทำงานใน Repository นี้
 
-เป้าหมายคือ:
+เป้าหมายคือ
 
 > Every change must be traceable, reviewable, and safe to ship.
 
 AI ทุกตัวต้องอ่านไฟล์นี้ก่อนเริ่มงาน
 
----
-
 ## Organization
 
-โครงสร้างอำนาจของ Golf AI HQ:
-
 ### CEO Golf
+
 Final Decision Maker
 
-มีอำนาจอนุมัติขั้นสุดท้ายเกี่ยวกับ:
+มีอำนาจอนุมัติขั้นสุดท้ายเกี่ยวกับ
 
 - Scope
 - Priority
@@ -37,12 +27,11 @@ Final Decision Maker
 - Release
 - Governance Changes
 
----
-
 ### JARVIS
+
 Chief of Staff
 
-หน้าที่:
+หน้าที่
 
 - Scope Control
 - Priority
@@ -52,12 +41,11 @@ Chief of Staff
 
 JARVIS ไม่เปลี่ยน Canon โดยพลการ
 
----
-
 ### Narin
+
 Chief Knowledge Architect
 
-หน้าที่:
+หน้าที่
 
 - Knowledge Architecture
 - Canon Management
@@ -66,15 +54,13 @@ Chief Knowledge Architect
 - Cross-reference
 - Knowledge Sync
 
-หลักการ:
+หลักการ
 
 > No Knowledge Left Behind.
 
----
-
 ### Engineering Agent / Codex
 
-หน้าที่:
+หน้าที่
 
 - Implement
 - Refactor
@@ -82,18 +68,16 @@ Chief Knowledge Architect
 - Debug
 - Document technical changes
 
-Engineering Agent ไม่มีอำนาจ:
+Engineering Agent ไม่มีอำนาจ
 
 - เปลี่ยน Product Scope เอง
 - เปลี่ยน Canon เอง
 - เปลี่ยน Current Project Truth เอง
 - ประกาศงานว่า Verified โดยไม่มีหลักฐาน
 
----
-
 ### GitHub Workspace AI
 
-หน้าที่:
+หน้าที่
 
 - Repository Management
 - Branch Management
@@ -103,11 +87,9 @@ Engineering Agent ไม่มีอำนาจ:
 - Release Process
 - Delivery Traceability
 
----
+## Mandatory Reading Order
 
-# Mandatory Reading Order
-
-ก่อนเริ่มงาน ให้ตรวจตามลำดับ:
+ก่อนเริ่มงาน ให้ตรวจตามลำดับ
 
 1. `AGENTS.md`
 2. `CODEX_KNOWLEDGE_PACK.md`
@@ -115,18 +97,16 @@ Engineering Agent ไม่มีอำนาจ:
 4. Current Project Truth ที่เกี่ยวข้อง
 5. Canon ที่เกี่ยวข้อง
 6. Repository README
-7. Issue / Task
-8. Pull Request / Branch Context
+7. Issue หรือ Task
+8. Pull Request หรือ Branch Context
 
-หากไฟล์ใดไม่มี:
+หากไฟล์ใดไม่มี
 
 - รายงานว่า `Missing`
 - ห้ามเดาเนื้อหา
 - ห้ามสร้างแทนเอง เว้นแต่ได้รับอนุญาต
 
----
-
-# Core Operating Principles
+## Core Operating Principles
 
 1. Evidence over Opinion
 2. Reality over Theory
@@ -141,13 +121,11 @@ Engineering Agent ไม่มีอำนาจ:
 11. Trace Every Decision
 12. Documentation First when knowledge changes
 
----
-
-# Repository Reality Rules
+## Repository Reality Rules
 
 Repository คือ Source of Truth สำหรับสถานะของโค้ดและไฟล์
 
-กฎ:
+กฎ
 
 - หาก Prompt กับ Repository ขัดแย้ง ให้รายงานความแตกต่าง
 - ห้ามอ้างว่าไฟล์มีอยู่ หากยังไม่ได้ตรวจ
@@ -155,31 +133,28 @@ Repository คือ Source of Truth สำหรับสถานะของ�
 - ห้ามอ้างว่า Commit หรือ PR มีอยู่ หากยังไม่ได้ตรวจ
 - ห้ามอ้างว่า Tests Passed หากไม่ได้รัน
 - หากข้อมูลตรวจสอบไม่ได้ ให้ใช้สถานะ `Unknown`
-- Do not assume repository state.
+- Do not assume repository state
 
----
+## Evidence Hierarchy
 
-# Evidence Hierarchy
-
-ใช้หลักฐานตามลำดับดังนี้:
+ใช้หลักฐานตามลำดับดังนี้
 
 1. Repository State
 2. Git History
-3. CI / Build Logs
+3. CI หรือ Build Logs
 4. Test Output
 5. Pull Request Discussion
-6. Screenshot / Recording
+6. Screenshot หรือ Recording
 7. Human Statement
 
-หากหลักฐานขัดแย้งกัน ให้ยึดหลักฐานระดับสูงกว่าและรายงาน Conflict
+หากหลักฐานขัดแย้งกัน
+ให้ยึดหลักฐานระดับสูงกว่าและรายงาน Conflict
 
----
-
-# Branch Rules
+## Branch Rules
 
 หลีกเลี่ยงการทำงานบน `main` โดยตรงเมื่อเป็นงานพัฒนา
 
-รูปแบบชื่อ Branch:
+รูปแบบชื่อ Branch
 
 - `feature/<name>`
 - `fix/<name>`
@@ -189,7 +164,7 @@ Repository คือ Source of Truth สำหรับสถานะของ�
 - `release/<version>`
 - `hotfix/<name>`
 
-ห้ามใช้ชื่อคลุมเครือ เช่น:
+ห้ามใช้ชื่อคลุมเครือ เช่น
 
 - `test`
 - `new`
@@ -198,11 +173,9 @@ Repository คือ Source of Truth สำหรับสถานะของ�
 - `latest`
 - `fix2`
 
----
+## Commit Rules
 
-# Commit Rules
-
-Commit ต้อง:
+Commit ต้อง
 
 - มีวัตถุประสงค์เดียว
 - อยู่ใน Scope
@@ -212,11 +185,11 @@ Commit ต้อง:
 - ไม่รวมหลายงานที่ไม่เกี่ยวข้องกัน
 - มีข้อความที่อ่านแล้วเข้าใจได้
 
-รูปแบบ:
+รูปแบบ
 
 `<type>: <summary>`
 
-ตัวอย่าง:
+ตัวอย่าง
 
 - `docs: add Codex workspace instructions`
 - `docs: add workspace index`
@@ -224,48 +197,57 @@ Commit ต้อง:
 - `fix: correct scenario B response counts`
 - `refactor: separate evidence mapping logic`
 
----
+## Pull Request Rules
 
-# Pull Request Rules
+Pull Request ควรระบุหัวข้อต่อไปนี้
 
-Pull Request ควรระบุ:
+### Summary
 
-## Summary
 สิ่งที่เปลี่ยน
 
-## Objective
+### Objective
+
 เป้าหมาย
 
-## Scope
+### Scope
+
 สิ่งที่อยู่ใน Scope
 
-## Out of Scope
+### Out of Scope
+
 สิ่งที่ไม่ได้ทำ
 
-## Files Changed
+### Files Changed
+
 ไฟล์สำคัญที่เปลี่ยน
 
-## Behavior Changed
+### Behavior Changed
+
 พฤติกรรมระบบที่เปลี่ยน
 
-## Testing Performed
+### Testing Performed
+
 Tests ที่รันจริง
 
-## Testing Not Performed
+### Testing Not Performed
+
 Tests ที่ยังไม่ได้รัน
 
-## Evidence
+### Evidence
+
 Screenshot, Log หรือหลักฐาน
 
-## Risks
+### Risks
+
 ความเสี่ยง
 
-## Related Work
+### Related Work
+
 Issue, Decision หรือ Current Project Truth
 
-## Knowledge Impact
+### Knowledge Impact
 
-ใช้หนึ่งสถานะ:
+ใช้หนึ่งสถานะ
 
 - None
 - Documentation Update Required
@@ -273,11 +255,9 @@ Issue, Decision หรือ Current Project Truth
 - Canon Review Required
 - Decision Record Required
 
----
+## Definition of Done
 
-# Definition of Done
-
-งานจะถือว่า `Ready for Review` เมื่อ:
+งานจะถือว่า `Ready for Review` เมื่อ
 
 - [ ] การเปลี่ยนแปลงตรงตาม Scope
 - [ ] ไฟล์ที่เกี่ยวข้องถูกสร้างหรือแก้ไขครบ
@@ -290,20 +270,16 @@ Issue, Decision หรือ Current Project Truth
 - [ ] Knowledge Impact ถูกประเมิน
 - [ ] พร้อมสำหรับ Reviewer
 
-ห้ามใช้คำว่า:
+ห้ามใช้คำต่อไปนี้ หากยังไม่มีหลักฐานรองรับ
 
 - Completed
 - Verified
 - Released
 - Approved
 
-หากยังไม่มีหลักฐานรองรับ
+## Status Vocabulary
 
----
-
-# Status Vocabulary
-
-ใช้สถานะมาตรฐาน:
+ใช้สถานะมาตรฐาน
 
 - Backlog
 - Planned
@@ -319,11 +295,9 @@ Issue, Decision หรือ Current Project Truth
 - Closed
 - Archived
 
----
+## Knowledge Trigger
 
-# Knowledge Trigger
-
-แจ้ง Narin เมื่อพบ:
+แจ้ง Narin เมื่อพบ
 
 - Repository Structure เปลี่ยน
 - Workflow ใหม่
@@ -338,22 +312,25 @@ Issue, Decision หรือ Current Project Truth
 - Security Incident
 - Repeated CI Failure Pattern
 
-รูปแบบ:
+ใช้รูปแบบ
 
-## Knowledge Event Detected
+### Knowledge Event Detected
 
-Type:  
-Impact:  
-Affected Files:  
-Recommended Artifacts:  
-Status:  
+Type:
+
+Impact:
+
+Affected Files:
+
+Recommended Artifacts:
+
+Status:
+
 Approval Required:
 
----
+## Executive Escalation
 
-# Executive Escalation
-
-แจ้ง JARVIS เมื่อพบ:
+แจ้ง JARVIS เมื่อพบ
 
 - Scope Conflict
 - Main Branch Risk
@@ -366,22 +343,25 @@ Approval Required:
 - Deadline Risk
 - Current Project Truth ไม่ตรงกับ Implementation
 
-รูปแบบ:
+ใช้รูปแบบ
 
-## GitHub Escalation
+### GitHub Escalation
 
-Issue:  
-Impact:  
-Evidence:  
-Blocked Work:  
-Recommended Action:  
+Issue:
+
+Impact:
+
+Evidence:
+
+Blocked Work:
+
+Recommended Action:
+
 Decision Required From:
 
----
+## Security Rules
 
-# Security Rules
-
-ห้าม Commit:
+ห้าม Commit
 
 - API Keys
 - Access Tokens
@@ -390,7 +370,7 @@ Decision Required From:
 - Secret Credentials
 - Personal Sensitive Information
 
-หากตรวจพบ Secret:
+หากตรวจพบ Secret
 
 1. หยุดงาน
 2. ไม่ Commit
@@ -398,11 +378,9 @@ Decision Required From:
 4. แจ้ง JARVIS
 5. รอคำสั่งก่อนดำเนินการต่อ
 
----
+## Scope Control
 
-# Scope Control
-
-AI ห้าม:
+AI ห้าม
 
 - ขยาย Scope เอง
 - เปลี่ยน Product Direction
@@ -413,19 +391,18 @@ AI ห้าม:
 - Cleanup ไฟล์นอก Scope โดยไม่มีคำสั่ง
 - ลบ History โดยพลการ
 
-เมื่อพบสิ่งที่ควรปรับแต่นอก Scope:
-
+เมื่อพบสิ่งที่ควรปรับแต่นอก Scope
 ให้รายงานเป็น Recommendation เท่านั้น
 
----
+## Current Authorized Scope
 
-# Current Authorized Scope
+Project: Codex Knowledge Pack
 
-Project: Codex Knowledge Pack  
-Version: v1.0 RC1  
+Version: v1.0 RC1
+
 Phase: P1 — Workspace Files
 
-Authorized Files:
+Authorized Files
 
 1. `AGENTS.md`
 2. `CODEX_KNOWLEDGE_PACK.md`
@@ -433,62 +410,72 @@ Authorized Files:
 
 ห้ามสร้างไฟล์อื่นเพิ่มโดยไม่มีคำสั่งจาก CEO
 
----
+## Current Project State
 
-# Current Project State
+Approval State: Approved
 
-Approval State: Approved  
 Authorized Scope: First 3 Files Only
 
-Files:
+Files
 
 - `AGENTS.md`
 - `CODEX_KNOWLEDGE_PACK.md`
 - `00-Workspace_Index.md`
 
-Files Outside Current Scope:
+Files Outside Current Scope
 
 `Not Authorized`
 
----
+## Default Start Report
 
-# Default Start Report
+ก่อนเริ่มงานให้รายงาน
 
-ก่อนเริ่มงานให้รายงาน:
+### Repository Check
 
-## Repository Check
+Repository:
 
-Repository:  
-Branch:  
-Task:  
-Scope:  
-Relevant Instructions:  
-Current Project Truth:  
-Risks:  
+Branch:
+
+Task:
+
+Scope:
+
+Relevant Instructions:
+
+Current Project Truth:
+
+Risks:
+
 Status:
 
----
+## Default Completion Report
 
-# Default Completion Report
+หลังทำงานให้รายงาน
 
-หลังทำงานให้รายงาน:
+### GitHub Work Report
 
-## GitHub Work Report
+Objective:
 
-Objective:  
-Branch:  
-Files Changed:  
-Commits:  
-Tests Performed:  
-Tests Not Performed:  
-Pull Request:  
-Risks:  
-Knowledge Impact:  
-Status:  
+Branch:
+
+Files Changed:
+
+Commits:
+
+Tests Performed:
+
+Tests Not Performed:
+
+Pull Request:
+
+Risks:
+
+Knowledge Impact:
+
+Status:
+
 Next Required Action:
 
----
-
-# Executive Motto
+## Executive Motto
 
 > Clean history. Clear scope. Safe delivery.
