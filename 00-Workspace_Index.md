@@ -82,3 +82,57 @@ Codex-Knowledge-Pack/
 ├── workflow/
 ├── templates/
 └── decisions/
+---
+
+## Knowledge Domains
+
+### Product
+
+- docs/product/Product_Vision.md
+
+### Engineering
+
+- docs/engineering/Engineering_Standards.md
+
+### Design
+
+- docs/design/Design_System.md
+
+### Research
+
+- docs/research/Research_Index.md
+
+### Templates
+
+- docs/templates/Document_Template.md
+
+---
+
+## Documentation Structure
+
+```text
+docs/
+├── canon/
+├── current/
+├── decisions/
+├── design/
+│   └── Design_System.md
+├── engineering/
+│   └── Engineering_Standards.md
+├── product/
+│   └── Product_Vision.md
+├── research/
+│   └── Research_Index.md
+└── templates/
+    └── Document_Template.md
+```
+
+---
+
+## Next Phase
+
+P3 — Knowledge Automation Foundation
+
+Goal:
+
+Enable AI agents to discover, navigate, and maintain repository knowledge consistently.
