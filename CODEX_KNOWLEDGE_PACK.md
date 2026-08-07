@@ -230,3 +230,48 @@ Repository: Active
 ## Executive Motto
 
 > One Workspace. One Truth. One Knowledge System.
+
+---
+
+## Knowledge Domains
+
+The repository is organized into the following knowledge areas.
+
+### Product
+
+- docs/product/
+
+### Engineering
+
+- docs/engineering/
+
+### Design
+
+- docs/design/
+
+### Research
+
+- docs/research/
+
+### Templates
+
+- docs/templates/
+
+### Governance
+
+- docs/current/
+- docs/decisions/
+- docs/canon/
+
+---
+
+## AI Navigation Rules
+
+AI agents should:
+
+1. Read AGENTS.md
+2. Read CODEX_KNOWLEDGE_PACK.md
+3. Read 00-Workspace_Index.md
+4. Navigate to the relevant knowledge domain
+5. Never assume missing information
+6. Report conflicts before making changes
