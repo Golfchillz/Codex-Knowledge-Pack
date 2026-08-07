@@ -91,14 +91,16 @@ Engineering Agent ไม่มีอำนาจ
 
 ก่อนเริ่มงาน ให้ตรวจตามลำดับ
 
-1. `AGENTS.md`
-2. `CODEX_KNOWLEDGE_PACK.md`
-3. `00-Workspace_Index.md`
-4. Current Project Truth ที่เกี่ยวข้อง
-5. Canon ที่เกี่ยวข้อง
-6. Repository README
-7. Issue หรือ Task
-8. Pull Request หรือ Branch Context
+1. `AGENT_PLUGIN_MANIFEST.md`
+2. `AGENTS.md`
+3. `CODEX_KNOWLEDGE_PACK.md`
+4. `docs/current/Current_Project_Truth.md`
+5. `docs/current/00-Workspace_Index.md`
+6. `docs/canon/AI_Navigation_Map.md`
+7. Canon ที่เกี่ยวข้อง
+8. Repository README
+9. Issue หรือ Task
+10. Pull Request หรือ Branch Context
 
 หากไฟล์ใดไม่มี
 
@@ -398,33 +400,54 @@ AI ห้าม
 
 Project: Codex Knowledge Pack
 
-Version: v1.0 RC1
+Version: v1.0 Stable
 
-Phase: P1 — Workspace Files
+Phase: P4 — Repository Standards
 
-Authorized Files
+Authorized Work
 
-1. `AGENTS.md`
-2. `CODEX_KNOWLEDGE_PACK.md`
-3. `00-Workspace_Index.md`
+- Repository governance
+- Knowledge architecture
+- Canon maintenance
+- Documentation standards
+- Repository health
+- AI workspace support
 
-ห้ามสร้างไฟล์อื่นเพิ่มโดยไม่มีคำสั่งจาก CEO
+New Canon documents still require CEO approval.
 
 ## Current Project State
 
-Approval State: Approved
+Approval State:
 
-Authorized Scope: First 3 Files Only
+Approved
 
-Files
+Authorized Scope:
 
-- `AGENTS.md`
-- `CODEX_KNOWLEDGE_PACK.md`
-- `00-Workspace_Index.md`
+Repository Standards
 
-Files Outside Current Scope
+Status:
 
-`Not Authorized`
+Operational
+
+Current Project Truth:
+
+`docs/current/Current_Project_Truth.md`
+
+Canon Index:
+
+`docs/canon/Canon_Index.md`
+
+Executive Decision Log:
+
+`docs/decisions/Executive_Decision_Log.md`
+
+Repository Health:
+
+`docs/Repository_Health.md`
+
+AI Navigation Map:
+
+`docs/canon/AI_Navigation_Map.md`
 
 ## Default Start Report
 
