@@ -12,7 +12,10 @@
 
 This document provides a standard entry point for AI agents working in this repository.
 
-Every AI agent should use this manifest to discover the repository structure, governance, and knowledge sources before making changes.
+Every AI agent should use this manifest
+to discover the repository structure,
+governance, and knowledge sources
+before making changes.
 
 ---
 
