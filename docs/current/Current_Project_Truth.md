@@ -2,8 +2,8 @@
 
 **Project:** Codex Knowledge Pack  
 **Version:** v1.0 RC1  
-**Status:** In Progress  
-**Current Phase:** P1 — Workspace Foundation  
+**Status:** Active  
+**Current Phase:** Repository Organization and Knowledge Architecture  
 **Last Updated:** 2026-08-07
 
 ## Purpose
@@ -19,7 +19,7 @@ AI ทุกตัวต้องใช้ไฟล์นี้เพื่อ�
 - งานถัดไปคืออะไร
 
 ห้ามใช้ความจำหรือ Prompt เก่าแทน Current Project Truth
-เมื่อข้อมูลขัดแย้งกัน
+เมื่อข้อมูลขัดแย้งกัน ให้ยึดเอกสารนี้เป็นหลัก
 
 ## Project State
 
@@ -39,12 +39,27 @@ Active
 
 ### Workspace Foundation
 
-สถานะของ Workspace Files
+สถานะของ Workspace Files:
 
 - `AGENTS.md` — Merged
 - `CODEX_KNOWLEDGE_PACK.md` — Merged
 - `00-Workspace_Index.md` — Merged
 - `README.md` — Active
+
+### Knowledge Architecture
+
+Current structure includes:
+
+- `docs/current/`
+- `docs/decisions/`
+- `docs/canon/`
+- `docs/design/`
+- `docs/engineering/`
+- `docs/organization/`
+- `docs/product/`
+- `docs/research/`
+- `docs/templates/`
+- `docs/archive/`
 
 ### GitHub Workflow
 
@@ -62,13 +77,24 @@ Markdown Lint passed successfully.
 
 ## Completed Work
 
-### P1 Workspace Files
+### Workspace Foundation
 
 Completed and merged:
 
 1. `AGENTS.md`
 2. `CODEX_KNOWLEDGE_PACK.md`
 3. `00-Workspace_Index.md`
+
+### Governance Documents
+
+Established:
+
+- `Current_Project_Truth.md`
+- `Executive_Decision_Log.md`
+- `Canon_Index.md`
+- `Repository_Health.md`
+- `20-AI_CHARACTER_CANON.md`
+- `AI_Navigation_Map.md`
 
 ### Repository Governance
 
@@ -91,37 +117,55 @@ Established:
 - Markdown lint
 - Automatic Markdown validation
 
+### Knowledge Domains
+
+Established:
+
+- Product
+- Engineering
+- Design
+- Research
+- Templates
+- Canon
+- Current Project Truth
+- Executive Decisions
+
 ## Current Authorized Work
 
 Current authorized scope:
 
-Create and review:
+- Repository organization
+- Knowledge governance
+- Current Project Truth maintenance
+- Documentation structure cleanup
+- Reference consistency
+- AI navigation consistency
 
-`Current_Project_Truth.md`
-
-No additional documentation files are authorized in this change.
+No change to Canon or project authority is allowed without approval.
 
 ## Current Priority
 
 Priority:
 
-Establish Current Project Truth as the authoritative project-state document.
+Maintain a clean and reliable knowledge architecture for all AI agents.
 
-Required outcome:
+Required outcomes:
 
-- Repository state documented
-- Completed work recorded
-- Current scope recorded
-- Next actions recorded
-- AI can determine project status without relying on conversation memory
+- Repository state remains documented
+- Current Project Truth remains authoritative
+- Canon remains consistent
+- Navigation remains clear
+- Documentation remains traceable
+- AI agents can locate the correct source without relying on conversation memory
 
 ## Known Constraints
 
 - Do not change Canon without CEO approval.
-- Do not expand repository structure without authorization.
-- Do not create additional project documents within this scope.
+- Do not expand project scope without authorization.
 - Do not mark future phases Completed before evidence exists.
 - Repository state must be verified before status claims are made.
+- Do not overwrite or silently replace authoritative documents.
+- Missing information must remain Unknown until verified.
 
 ## Evidence Rules
 
@@ -147,7 +191,7 @@ No blocking repository risk identified.
 
 Known maintenance item:
 
-GitHub Actions currently reports a Node.js 20 deprecation warning
+GitHub Actions may report a Node.js deprecation warning
 from an action dependency.
 
 This warning does not currently block Markdown validation.
@@ -158,20 +202,20 @@ Non-blocking maintenance item.
 
 ## Next Actions
 
-After this file is reviewed and merged:
-
-1. Review Current Project Truth consistency.
-2. Prepare the next authorized knowledge artifact.
-3. Keep future work isolated by branch and Pull Request.
+1. Maintain Current Project Truth consistency.
+2. Keep Canon and navigation references synchronized.
+3. Continue repository organization by approved scope.
 4. Update this file whenever project state materially changes.
+5. Record major CEO decisions in the Executive Decision Log.
+6. Escalate Canon conflicts or scope conflicts before implementation.
 
 ## Approval
 
-Current Project Truth creation:
+Current Project Truth:
 
-Authorized
+Approved for operational use.
 
-Final content approval:
+Final authority:
 
 CEO Golf
 
@@ -197,7 +241,7 @@ Use only evidence-supported states:
 
 Codex Knowledge Pack:
 
-### In Progress
+### Active
 
 Workspace Foundation:
 
@@ -209,7 +253,7 @@ Markdown CI:
 
 Current Task:
 
-### Current Project Truth — In Progress
+### Repository Organization and Knowledge Architecture — In Progress
 
 ## Executive Motto
 
