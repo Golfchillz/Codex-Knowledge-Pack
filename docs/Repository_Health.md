@@ -1,55 +1,91 @@
 # Repository Health
 
+**Project:** Codex Knowledge Pack
+
 **Version:** v1.0 RC1
 
 **Status:** Healthy
 
 ---
 
-## Mission
+## Overview
 
-Track the overall health of the repository.
+Repository health is reviewed after every significant update.
 
-Monitor documentation, workflow, structure, and release readiness.
-
----
-
-## Current Health
-
-| Item | Status |
-|------|--------|
-| Repository | Healthy |
-| GitHub Actions | Passing |
-| Markdown Lint | Passing |
-| Documentation | Active |
-| Governance | Active |
+The goal is to keep the workspace organized, consistent, and ready for AI collaboration.
 
 ---
 
 ## Health Checklist
 
+### Repository
+
+- [x] Git Repository Initialized
+- [x] Main Branch Active
+- [x] README Present
+
+### Governance
+
 - [x] AGENTS.md
-- [x] CODEX_KNOWLEDGE_PACK.md
-- [x] 00-Workspace_Index.md
-- [x] Current_Project_Truth.md
-- [x] Executive_Decision_Log.md
-- [x] Canon_Index.md
-- [x] Repository_Health.md
-- [x] 20-AI_CHARACTER_CANON.md
+- [x] Current Project Truth
+- [x] Executive Decision Log
+- [x] Canon Index
+
+### Knowledge
+
+- [x] Workspace Index
+- [x] Knowledge Pack
+- [x] AI Character Canon
+- [x] AI Navigation Map
+
+### Documentation
+
+- [x] Markdown Lint
+- [x] GitHub Actions
+- [x] Documentation Structure
 
 ---
 
-## Maintenance
+## Repository Metrics
 
-- Keep Markdown Lint passing.
-- Review Canon after major changes.
-- Update Current Project Truth when project status changes.
-- Record executive decisions in Executive Decision Log.
+| Item | Status |
+|------|--------|
+| Repository | Healthy |
+| Documentation | Healthy |
+| Governance | Healthy |
+| Canon | Healthy |
+| Navigation | Healthy |
+| CI | Operational |
 
 ---
 
-## Repository Status
+## Maintenance Rules
 
-Current State: Healthy
+- Run Markdown Lint before merge.
+- Keep Current Project Truth updated.
+- Record major decisions in the Executive Decision Log.
+- Preserve Canon consistency.
+- Archive superseded documents instead of deleting them.
 
-Next Phase: Plugin Readiness
+---
+
+## Review Frequency
+
+Repository Health should be reviewed after:
+
+- Major documentation changes
+- Governance updates
+- Repository restructuring
+- Release milestones
+
+---
+
+## Approval
+
+Owner:
+
+CEO Golf
+
+Status:
+
+Operational
