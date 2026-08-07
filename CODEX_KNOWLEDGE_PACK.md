@@ -241,23 +241,23 @@ The repository is organized into the following knowledge areas.
 
 - docs/product/
 
-### Engineering
+### Engineering References
 
 - docs/engineering/
 
-### Design
+### Design References
 
 - docs/design/
 
-### Research
+### Research References
 
 - docs/research/
 
-### Templates
+### Templates References
 
 - docs/templates/
 
-### Governance
+### Governance References
 
 - docs/current/
 - docs/decisions/
