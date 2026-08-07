@@ -12,27 +12,27 @@ Only CEO-approved documents may be listed as Canon.
 
 ## Core Canon
 
-- AGENTS.md
-- CODEX_KNOWLEDGE_PACK.md
-- 00-Workspace_Index.md
-- README.md
+- `AGENT_PLUGIN_MANIFEST.md`
+- `README.md`
+- `docs/current/00-Workspace_Index.md`
 
 ## Governance
 
-- Current_Project_Truth.md
-- Executive_Decision_Log.md
-- Canon_Index.md
-- Repository_Health.md
+- `docs/current/Current_Project_Truth.md`
+- `docs/decisions/Executive_Decision_Log.md`
+- `docs/canon/Canon_Index.md`
+- `docs/Repository_Health.md`
 
-## AI Identity
+## AI Identity and Navigation
 
-- 20-AI_CHARACTER_CANON.md
+- `docs/canon/20-AI_CHARACTER_CANON.md`
+- `docs/canon/AI_Navigation_Map.md`
 
 ## Rules
 
 - Documents listed here are canonical.
 - CEO approval is required for Canon changes.
-- AGENTS.md defines workspace behavior.
-- Current_Project_Truth.md defines the current project state.
-- Executive_Decision_Log.md records executive decisions.
-- Canon_Index.md is the navigation entry for all Canon documents.
+- Current Project Truth defines the current project state.
+- Executive Decision Log records executive decisions.
+- AI Navigation Map defines AI navigation behavior.
+- Canon Index is the authoritative index of Canon documents.
