@@ -194,11 +194,11 @@ AI ห้าม
 
 ### Then
 
-4. Current Project Truth
-5. Canon
-6. README
-7. Issues
-8. Pull Requests
+1. Current Project Truth
+2. Canon
+3. README
+4. Issues
+5. Pull Requests
 
 ---
 
