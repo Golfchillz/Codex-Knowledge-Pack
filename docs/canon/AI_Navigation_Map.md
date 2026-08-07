@@ -87,4 +87,7 @@ Notify Narin when:
 
 ## Goal
 
-Ensure every AI agent follows the same navigation path, uses the same knowledge source, and maintains repository consistency.
+Ensure every AI agent 
+follows the same navigation path, 
+uses the same knowledge source, 
+and maintains repository consistency.
