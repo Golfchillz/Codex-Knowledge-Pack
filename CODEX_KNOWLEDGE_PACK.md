@@ -1,276 +1,232 @@
 # CODEX KNOWLEDGE PACK
 
-Version: v1.0 RC1
+**Version:** v1.1 RC1
 
-Status: Approved
+**Status:** Approved
 
-Phase: P1 — Workspace Files
+**Phase:** P1 — Workspace Files
 
 ---
 
-# Purpose
+## Purpose
 
-ไฟล์นี้เป็นประตูหลัก (Gateway) สำหรับ AI ทุกตัวที่เข้ามาทำงานใน Repository
+CODEX Knowledge Pack เป็นจุดเริ่มต้นสำหรับ AI ทุกตัวที่เข้ามาทำงานใน Repository
 
-หน้าที่ของไฟล์นี้คือ
+หน้าที่หลักคือ
 
-- อธิบายโครงสร้างความรู้
-- ชี้ตำแหน่งเอกสารสำคัญ
+- อธิบายโครงสร้าง Repository
 - กำหนดลำดับการอ่าน
+- ชี้ตำแหน่งเอกสารสำคัญ
 - ลดเวลาในการทำความเข้าใจ Workspace
-- ป้องกันการตีความผิดของ AI
-
-Knowledge Pack นี้ทำหน้าที่เป็น Table of Contents ของ Repository
+- ป้องกันการตีความผิด
 
 ---
 
-# AI Startup Workflow
+## Current Project
 
-ทุกครั้งก่อนเริ่มงาน
+| Item | Value |
+|------|-------|
+| Project | Codex Knowledge Pack |
+| Version | v1.1 RC1 |
+| Phase | P1 |
+| Status | Approved |
 
-AI ต้องดำเนินการตามลำดับดังนี้
+---
 
-1. อ่าน AGENTS.md
-2. อ่าน CODEX_KNOWLEDGE_PACK.md
-3. อ่าน 00-Workspace_Index.md
+## Mission
+
+สร้าง Repository ที่ AI ทุกตัวสามารถเข้าใจได้ตรงกัน
+
+หลักการคือ
+
+- One Workspace
+- One Truth
+- One Knowledge System
+
+---
+
+## Startup Workflow
+
+AI ทุกตัวต้องดำเนินการตามลำดับ
+
+1. อ่าน `AGENTS.md`
+2. อ่าน `CODEX_KNOWLEDGE_PACK.md`
+3. อ่าน `00-Workspace_Index.md`
 4. อ่าน Current Project Truth
-5. อ่าน Canon ที่เกี่ยวข้อง
+5. อ่าน Canon
 6. อ่าน README
 7. อ่าน Issue หรือ Task
-8. อ่าน Branch / Pull Request Context
+8. อ่าน Pull Request
 
 ---
 
-# Current Authorized Scope
+## Repository Structure
 
-Project
+```text
+Codex-Knowledge-Pack/
+│
+├── README.md
+├── AGENTS.md
+├── CODEX_KNOWLEDGE_PACK.md
+├── 00-Workspace_Index.md
+│
+├── knowledge/
+├── organization/
+├── engineering/
+├── design/
+├── research/
+├── workflow/
+├── templates/
+└── decisions/
+```
 
-Codex Knowledge Pack
+---
 
-Version
+## Current Authorized Scope
 
-v1.0 RC1
-
-Phase
-
-P1 — Workspace Files
-
-Approved Files
+### Authorized Files
 
 - AGENTS.md
 - CODEX_KNOWLEDGE_PACK.md
 - 00-Workspace_Index.md
 
-Files Outside Current Scope
+### Not Authorized
 
-Not Authorized
+- Repository Health
+- AI Character Canon
+- Executive Decision Log
+- Canon Index
+- Current Project Truth
 
----
-
-# Workspace Structure
-
-Repository
-
-├── README.md
-
-├── AGENTS.md
-
-├── CODEX_KNOWLEDGE_PACK.md
-
-└── 00-Workspace_Index.md
+จนกว่าจะได้รับการอนุมัติ
 
 ---
 
-# Reading Order
+## Knowledge Categories
 
-Level 1
+### Governance
 
-AGENTS.md
+- AGENTS
+- Rules
+- Authority
 
-↓
+### Workspace
 
-CODEX_KNOWLEDGE_PACK.md
+- Workspace Index
+- Repository Structure
 
-↓
+### Engineering
 
-00-Workspace_Index.md
+- Branch
+- Pull Request
+- Commit
 
-Level 2
+### Documentation
 
-Current Project Truth
+- README
+- Knowledge Pack
+- Templates
 
-↓
+### Research
 
-Canon
+- Evidence
+- References
 
-↓
+### Decisions
 
-Repository Documents
-
-Level 3
-
-Issues
-
-↓
-
-Pull Requests
-
-↓
-
-Implementation
+- Executive Decisions
+- Canon
+- Current Project Truth
 
 ---
 
-# Knowledge Categories
+## Repository Principles
 
-Governance
-
-Current Project Truth
-
-Canon
-
-Architecture
-
-Engineering
-
-Research
-
-Documentation
-
-Organization
-
-Workflow
-
-Decision Records
-
-Release Notes
+- Evidence First
+- Documentation First
+- Reality over Theory
+- No Scope Creep
+- No Silent Change
+- No False Completion
+- Review before Merge
 
 ---
 
-# Operating Principles
+## Repository Rules
 
-Evidence over Opinion
+AI ต้อง
 
-Documentation First
+- ตรวจ Repository ก่อนตอบ
+- ไม่เดา
+- รายงาน Missing เมื่อหาไม่พบ
+- ใช้หลักฐานจริง
 
-Reality over Theory
+AI ห้าม
 
-No Scope Creep
-
-No False Completion
-
-No Silent Change
-
-One Purpose per Commit
-
-One Scope per Branch
-
-Review before Merge
+- เปลี่ยน Canon
+- เปลี่ยน Current Project Truth
+- เปลี่ยน Scope
+- สร้างเอกสารใหม่โดยไม่มีคำสั่ง
 
 ---
 
-# Repository Reality Rules
+## Evidence Priority
 
-Repository คือ Source of Truth
+ลำดับความน่าเชื่อถือ
 
-หาก Repository กับ Prompt ขัดแย้ง
-
-ให้รายงานความแตกต่างก่อน
-
-ห้ามเดาสถานะ Repository
-
-ห้ามเดาสถานะไฟล์
-
-ห้ามเดาสถานะ Branch
-
-ห้ามเดาสถานะ Pull Request
-
-Unknown = Unknown
+1. Repository
+2. Git History
+3. Pull Request
+4. CI Logs
+5. Test Results
+6. Screenshot
+7. Human Statement
 
 ---
 
-# Knowledge Sync
+## Reading Order
 
-เมื่อพบ
+### Required
 
-- Repository Structure เปลี่ยน
-- Canon เปลี่ยน
-- Current Project Truth เปลี่ยน
-- Workflow ใหม่
-- Architecture ใหม่
+1. AGENTS.md
+2. CODEX_KNOWLEDGE_PACK.md
+3. 00-Workspace_Index.md
 
-ให้แจ้ง Narin
+### Then
 
-หากพบ
-
-- Scope Conflict
-- Merge Risk
-- Release Blocker
-- Current Project Truth Conflict
-
-ให้แจ้ง JARVIS
+4. Current Project Truth
+5. Canon
+6. README
+7. Issues
+8. Pull Requests
 
 ---
 
-# Future Knowledge Packs
+## Future Expansion
 
-ในอนาคตไฟล์นี้จะชี้ไปยัง
+Repository จะรองรับ
 
-knowledge/
-
-engineering/
-
-organization/
-
-design/
-
-research/
-
-templates/
-
-workflow/
-
-แต่ยังไม่อยู่ใน Scope ของ P1
+- knowledge/
+- organization/
+- engineering/
+- research/
+- design/
+- workflow/
+- templates/
+- decisions/
 
 ---
 
-# Definition of Done
+## Current Status
 
-Knowledge Pack ถือว่า Ready for Review เมื่อ
+Status: Approved
 
-- Reading Order ถูกต้อง
-- Cross References ถูกต้อง
-- ไม่มี Canon Conflict
-- ไม่มี Current Project Truth Conflict
-- Documentation อยู่ใน Scope
-- AI เข้าใจ Repository ได้จากไฟล์นี้
+Phase: P1
+
+Repository: Active
 
 ---
 
-# Current Status
+## Executive Motto
 
-Status
-
-Approved
-
-Phase
-
-P1
-
-Current Scope
-
-Workspace Files
-
-Next Phase
-
-Repository Review
-
----
-
-# Executive Motto
-
-One Workspace
-
-One Truth
-
-One Knowledge System
+> One Workspace. One Truth. One Knowledge System.
