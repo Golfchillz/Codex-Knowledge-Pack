@@ -17,10 +17,11 @@ This document is the authoritative history of CEO-approved decisions.
 ## Decision Records
 
 | ID | Date | Decision | Status |
-|----|------------|----------------------------------------|--------|
+|---|---|---|---|
 | ED-001 | 2026-08-07 | Approve Codex Knowledge Pack RC1 | Active |
 | ED-002 | 2026-08-07 | Approve Workspace Foundation | Active |
 | ED-003 | 2026-08-07 | Approve Knowledge Architecture | Active |
+| ED-004 | 2026-08-07 | Approve AI Workspace Foundation | Active |
 
 ---
 
