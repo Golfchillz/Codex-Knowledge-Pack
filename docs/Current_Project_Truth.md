@@ -197,19 +197,19 @@ Use only evidence-supported states:
 
 Codex Knowledge Pack:
 
-**In Progress**
+### In Progress
 
 Workspace Foundation:
 
-**Merged**
+### Merged
 
 Markdown CI:
 
-**Operational**
+### Operational
 
 Current Task:
 
-**Current Project Truth — In Progress**
+### Current Project Truth — In Progress
 
 ## Executive Motto
 
